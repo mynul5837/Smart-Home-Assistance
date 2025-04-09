@@ -92,7 +92,8 @@ class _SmartHomeScreenState extends State<SmartHomeScreen> {
                         "Welcome to diu Smart Home",
                         style: TextStyle(
                           fontSize: 18,
-                          color: AppColor.fgColor.withOpacity(.5),
+                          color: const Color.fromARGB(255, 186, 113, 17)
+                              .withOpacity(.5),
                           fontWeight: FontWeight.w500,
                         ),
                       ),
